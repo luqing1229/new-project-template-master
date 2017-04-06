@@ -53,6 +53,7 @@ public class MainActivity extends Activity {
         super.onDestroy();
         Log.d(TAG, "onDestroy");
         Log.d(TAG, "onDestroy");
+        Log.d(TAG, "onDestroy");
 
     }
 }
