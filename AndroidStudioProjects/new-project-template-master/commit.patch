@@ -1,0 +1,15 @@
+Index: AndroidStudioProjects/new-project-template-master/app/src/main/java/com/example/androidthings/myproject/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- AndroidStudioProjects/new-project-template-master/app/src/main/java/com/example/androidthings/myproject/MainActivity.java	(date 1491459118000)
++++ AndroidStudioProjects/new-project-template-master/app/src/main/java/com/example/androidthings/myproject/MainActivity.java	(revision )
+@@ -52,6 +52,7 @@
+     protected void onDestroy() {
+         super.onDestroy();
+         Log.d(TAG, "onDestroy");
++        Log.d(TAG, "onDestroy");
+ 
+     }
+ }
